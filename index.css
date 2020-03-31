@@ -65,6 +65,7 @@ body {
 form{
     display: flex;
     flex-flow: row wrap;
+    margin-top: 3rem;
     
 }
 input {
@@ -147,6 +148,7 @@ button:hover{
         max-height: 100vh;
         max-width: 100wh;
         width: 100wh;
+        margin-bottom: 1rem;
     }
     .message{
         margin: 1rem 0.5rem 0 0.5rem;
@@ -215,5 +217,9 @@ button:hover{
         background: url('./images/icon-error.svg') no-repeat;
         background-position: 80% 50%;
     }
+    .form{
+        margin-top: 2rem;
+    }
+    
 
 }
